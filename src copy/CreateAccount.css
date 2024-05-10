@@ -1,0 +1,35 @@
+.card {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .card-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007bff;
+  }
+  
+  .form-control {
+    border-radius: 20px;
+  }
+  
+  .btn-primary {
+    border-radius: 20px;
+  }
+  
+  .alert {
+    border-radius: 10px;
+  }
+  
+  .alert-success {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    color: #155724;
+  }
+  

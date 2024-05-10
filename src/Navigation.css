@@ -1,0 +1,47 @@
+.navbar {
+  background-color: #343a40; /* Dark background color */
+}
+
+.navbar-brand {
+  color: #fff; /* White text color */
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-nav {
+  display: flex; /* Use Flexbox */
+  justify-content: space-between; /* Items occupy the full width with equal spacing */
+  align-items: center; /* Align items vertically in the center */
+  list-style-type: none; /* Remove bullets */
+  padding-left: 0; /* Remove default padding */
+}
+
+.navbar-nav .nav-item {
+  flex-grow: 1; /* Each item takes up equal space */
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #fff; /* White text color */
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #f8f9fa; /* Lighter shade on hover */
+}
+
+.navbar-toggler {
+  border-color: #fff; /* White border color */
+}
+
+.navbar-toggler-icon {
+  background-color: #fff; /* White background color for the toggler icon */
+}
+
+@media (max-width: 768px) {
+  .navbar-nav .nav-item {
+    flex-grow: 0; /* Reset flex-grow for smaller screens */
+    margin-right: 0;
+  }
+}

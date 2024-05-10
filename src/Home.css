@@ -1,0 +1,21 @@
+.homecard {
+    max-width: 625px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .card-text {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+  }
+  
